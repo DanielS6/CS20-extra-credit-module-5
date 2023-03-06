@@ -1,0 +1,15 @@
+/* Styles shared across all pages */
+body {
+    font-size: 16pt;
+}
+
+h1 {
+    /* Center the heading text */
+    text-align: center;
+}
+
+#body-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

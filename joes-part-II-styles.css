@@ -1,0 +1,32 @@
+/* Joe's Part II specific styles */
+
+#body-content table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Item name column should be smallest, then unit cost, then quantity */
+#order-table th:first-child {
+    width: 20%;
+}
+#order-table th:last-child {
+    width: 30%;
+}
+#order-table td {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#order-table select {
+    width: 70%
+}
+.top-padding-20px {
+    padding-top: 20px;
+}
+#empty-order-error {
+    color: red;
+    font-weight: bold;
+}
+.hidden {
+    display: none;
+}

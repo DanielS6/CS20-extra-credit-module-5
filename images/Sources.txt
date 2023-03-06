@@ -1,0 +1,9 @@
+All files are published and licensed under terms that do not require
+attribution, but just for the record, I used:
+
+* https://commons.wikimedia.org/wiki/File:Example.png (public domain)
+* https://commons.wikimedia.org/wiki/File:Example.jpg (public domain)
+* https://commons.wikimedia.org/wiki/File:Information_example_page.jpg
+    (public domain)
+* https://commons.wikimedia.org/wiki/File:Example.svg (public domain)
+* https://commons.wikimedia.org/wiki/File:JAB-code.png (CC0 / public domain)

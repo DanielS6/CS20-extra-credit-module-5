@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" type = "text/css" href="./common-styles.css">
+    <link rel="stylesheet" type = "text/css" href="./gallery-styles.css">
+    <script src="./gallery-plain-js-script.js"></script>
+    <style>
+        /* These are the styles needed to implement the slideshow in plain JS */
+        .faded { opacity: 0 }
+        #slideshow-image {
+            transition-property: opacity;
+            transition-duration: 1s;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>Gallery</h1>
+    <div id="body-content">
+        <div id="gallery-wrapper">
+            <img src="./images/Example.jpg" id="slideshow-image">
+            <br>
+            <button id="slideshow-start">Start</button>
+            <button id="slideshow-stop">Stop</button>
+        </div>
+    </div>
+</body>
+</html>

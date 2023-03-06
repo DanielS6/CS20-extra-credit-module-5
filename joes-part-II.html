@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joe's Hotdog Stand - Part 2</title>
+    <link rel="stylesheet" type = "text/css" href="./common-styles.css">
+    <link rel="stylesheet" type = "text/css" href="./joes-part-II-styles.css">
+    <script src="./joes-part-II-script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>Joe's Hotdog Stand</h1>
+    <div id="body-content">
+        <table id="order-table">
+            <thead>
+                <tr><th>Item</th><th>Quantity</th><th>Unit cost</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Hotdogs</td>
+                    <td id="hotdogs-count">
+                        <select id="hotdogs-select">
+                            <option value="0">None</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                        </select>
+                    </td>
+                    <td id="hotdogs-cost">$4.00</td></tr>
+                <tr><td>Fries</td>
+                    <td id="fries-count">
+                        <select id="fries-select">
+                            <option value="0">None</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                        </select>
+                    </td>
+                    <td id="fries-cost">$3.50</td></tr>
+                <tr><td>Sodas</td>
+                    <td id="sodas-count">
+                        <select id="sodas-select">
+                            <option value="0">None</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                        </select>
+                    </td>
+                    <td id="sodas-cost">$1.75</td></tr>
+                <tr>
+                <td colspan="3" class="top-padding-20px">
+                    <button id="order-submit">Submit order</button>
+                </td>
+                </tr>
+                <tr>
+                <td colspan="3" 
+                    id="empty-order-error"
+                    class="hidden top-padding-20px">
+                    Cannot submit an empty order!
+                </td>
+                </tr>
+                <tr id="subtotal-row" class="hidden top-padding-20px">
+                    <td colspan="2">Subtotal</td>
+                    <td id="subtotal-value"></td>
+                </tr>
+                <tr id="tax-row" class="hidden">
+                    <td colspan="2">Tax (6.25%)</td>
+                    <td id="tax-value"></td>
+                </tr>
+                <tr id="total-row" class="hidden">
+                    <td colspan="2">Final total</td>
+                    <td id="total-value"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

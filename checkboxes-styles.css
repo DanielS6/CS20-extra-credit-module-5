@@ -1,0 +1,15 @@
+/* Checkboxes specific styles */
+#checkboxes-wrapper {
+    /* Center the elements */
+    text-align: center;
+}
+.checkbox-with-label {
+    margin-top: 20px;
+    display: block;
+    text-align: left;
+    width: fit-content;
+    margin-left: 40%;
+}
+#checkbox-all {
+    margin-bottom: 20px;
+}
